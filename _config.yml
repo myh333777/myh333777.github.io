@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Ma Yinghui's Academic Homepage"
+description              : "Dr. Ma Yinghui's research focuses on agricultural economics, health economics, and policy impact evaluation."
+repository               : "your-github-username/your-repo-name"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,34 +21,34 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
+  name             : "Ma Yinghui"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
+  bio              : "Lecturer at Jiangsu University of Science and Technology, Vice Chair of the Economics Department, member of the Chinese Agricultural Risk Management Research Association."
+  location         : "Zhenjiang, China"
+  employer         : "Jiangsu University of Science and Technology"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=UA5BLtwAAAAJ"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  email            : "myh@just.edu.cn"
+  researchgate     : 
+  uri              : "http://mypage.just.edu.cn/jjgl/myh/list.htm"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "your-github-username"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
+  linkedin         : 
+  dblp             : 
+  orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
@@ -57,7 +57,6 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-
 
 # Reading Files
 include:
@@ -97,14 +96,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -127,17 +124,14 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
@@ -153,7 +147,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
